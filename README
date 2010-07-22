@@ -1,1 +1,5 @@
 Song Fighter made at ThoughtWorks' Code Jam on 2010, July 22nd in Porto Alegre, Brazil.
+
+To run it, place the codejam.rb file inside a folder with some MP3 files and run it with: 'ruby codejam.rb'.
+
+Round 1, fight!

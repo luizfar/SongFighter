@@ -20,6 +20,7 @@ class SongFighter
       puts "\n\n lıllı ((((|̲̅̅●̲̅̅|̲̅̅=̲̅̅|̲̅̅●̲̅̅|)))) ıllı \n\n"
       puts '#1: ' + first
       puts '#2: ' + second
+      puts "Choose 1 or 2 (or 3 to finish the voting)" 
       
       song = first.gsub(" ", "\\ ")
       system("xmms2 stop")
@@ -35,7 +36,6 @@ class SongFighter
       system("sleep " + time)
       system("xmms2 stop")
    
-      puts "Choose 1 or 2 (or 3 to finish the voting)" 
       choice = gets.chomp
       
       if choice == '1'
